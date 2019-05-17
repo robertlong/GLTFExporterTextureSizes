@@ -1,0 +1,281 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Mozilla Spoke 102 (2d35f5ee29b1c2970a48e53b099d1e2352b38623)"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        2,
+        4
+      ],
+      "name": "AtriumExportTest"
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "AtriumHouse",
+      "mesh": 0
+    },
+    {
+      "name": "Scene",
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Atrium.glb",
+      "extensions": {
+        "MOZ_hubs_components": {
+          "shadow": {
+            "cast": false,
+            "receive": false
+          }
+        }
+      },
+      "children": [
+        1
+      ]
+    },
+    {},
+    {
+      "rotation": [
+        -0.29027620962205536,
+        -0.14662458039115234,
+        -0.04505930960906914,
+        0.9445690092153802
+      ],
+      "translation": [
+        -3.685556180574345,
+        8.826768526535666,
+        11.508657885919456
+      ],
+      "scale": [
+        0.9999999999999964,
+        0.9999999999999907,
+        0.9999999999999991
+      ],
+      "name": "scene-preview-camera",
+      "camera": 0,
+      "children": [
+        3
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 77304,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 77304,
+      "byteLength": 77304,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 154608,
+      "byteLength": 51536,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 206144,
+      "byteLength": 51536,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 257680,
+      "byteLength": 15108,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "AtriumExportTest_data.bin",
+      "byteLength": 272788
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 6442,
+      "max": [
+        20.218481063842773,
+        4.515995979309082,
+        7.999992370605469
+      ],
+      "min": [
+        -4.218496799468994,
+        -0.25000083446502686,
+        -7.999992370605469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6442,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6442,
+      "max": [
+        0.9971522092819214,
+        0.9990020394325256
+      ],
+      "min": [
+        0.0009671660955063999,
+        0.0009980201721191406
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6442,
+      "max": [
+        0.9971522092819214,
+        0.9990020394325256
+      ],
+      "min": [
+        0.0009671660955063999,
+        0.0009980201721191406
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 7554,
+      "max": [
+        6441
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 0
+        },
+        "baseColorTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 1
+      },
+      "occlusionTexture": {
+        "index": 0,
+        "texCoord": 1
+      },
+      "name": "AtriumHouseMat"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "images": [
+    {
+      "uri": "AtriumExportTest_img0.png"
+    },
+    {
+      "uri": "AtriumExportTest_img1.png"
+    },
+    {
+      "uri": "AtriumExportTest_img2.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 2.5510204081632653,
+        "yfov": 0.5473352534254218,
+        "zfar": 8000,
+        "znear": 0.2
+      },
+      "name": "PerspectiveCamera"
+    }
+  ],
+  "extensionsUsed": [
+    "MOZ_hubs_components"
+  ],
+  "extensions": {
+    "MOZ_hubs_components": {
+      "version": 1
+    }
+  }
+}
